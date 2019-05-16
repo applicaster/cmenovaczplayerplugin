@@ -1,0 +1,21 @@
+[{
+	"plugin": {
+		"api": {
+			"class_name": "NovaCzPlayer.NovaCzPlayerPlugin"
+		},
+		"author_name": "Karel Smetana",
+		"author_email": "smetana.karel@gmail.com",
+		"manifest_version": "0.0.1",
+		"name": "NovaCzPlayer",
+		"description": "Video player wrapper",
+		"identifier": "NovaCzAppApplicasterVideoPlugin",
+		"type": "player",
+		"platform": "ios",
+		"min_zapp_sdk": "7.0.0",
+		"whitelisted_account_ids": [],
+		"dependency_repository_url": [],
+		"dependency_name": "",
+		"dependency_version": ""
+	},
+	"configuration_json": {}
+}]

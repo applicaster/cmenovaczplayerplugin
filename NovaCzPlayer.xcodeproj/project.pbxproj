@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C0B25D256CDDBB89F24FEE /* Pods_NovaCzPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD2C6FB2769CE44856CB5AE /* Pods_NovaCzPlayer.framework */; };
+		FC26313E2258D9D20028BF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26313D2258D9D20028BF26 /* AppDelegate.swift */; };
+		FC2631412258D9D20028BF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC26313F2258D9D20028BF26 /* Main.storyboard */; };
+		FC2631482258D9D20028BF26 /* InlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2631472258D9D20028BF26 /* InlineViewController.swift */; };
+		FC26314A2258D9D20028BF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2631492258D9D20028BF26 /* ViewController.swift */; };
+		FC26314C2258D9D20028BF26 /* plugin_configurations.json in Resources */ = {isa = PBXBuildFile; fileRef = FC26314B2258D9D20028BF26 /* plugin_configurations.json */; };
+		FC26314F2258D9D50028BF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC26314E2258D9D50028BF26 /* Assets.xcassets */; };
+		FC2631522258D9D50028BF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2631502258D9D50028BF26 /* LaunchScreen.storyboard */; };
+		FC26315D2258D9D50028BF26 /* NovaCzPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26315C2258D9D50028BF26 /* NovaCzPlayerTests.swift */; };
+		FC2631682258D9D50028BF26 /* NovaCzPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2631672258D9D50028BF26 /* NovaCzPlayerUITests.swift */; };
+		FC59391022639BD30037B178 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC59390F22639BD30037B178 /* VideoPlayerViewController.swift */; };
+		FCDC0930226C8BE200DA7152 /* Playable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC092F226C8BE200DA7152 /* Playable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2631592258D9D50028BF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2631322258D9D20028BF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2631392258D9D20028BF26;
+			remoteInfo = NovaCzPlayer;
+		};
+		FC2631642258D9D50028BF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2631322258D9D20028BF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2631392258D9D20028BF26;
+			remoteInfo = NovaCzPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B7F65505E0267FED5A3B264 /* Pods-NovaCzPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaCzPlayer.release.xcconfig"; path = "Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		DDD2C6FB2769CE44856CB5AE /* Pods_NovaCzPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovaCzPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAC94E288BF4E6C7DB0348B /* Pods-NovaCzPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaCzPlayer.debug.xcconfig"; path = "Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		FC26313A2258D9D20028BF26 /* NovaCzPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaCzPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC26313D2258D9D20028BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2631402258D9D20028BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2631432258D9D20028BF26 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FC2631442258D9D20028BF26 /* NovaCzPlayer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NovaCzPlayer.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC2631462258D9D20028BF26 /* NovaCzPlayerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NovaCzPlayerPlugin.swift; path = ../PluginClasses/NovaCzPlayerPlugin.swift; sourceTree = "<group>"; };
+		FC2631472258D9D20028BF26 /* InlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineViewController.swift; sourceTree = "<group>"; };
+		FC2631492258D9D20028BF26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC26314B2258D9D20028BF26 /* plugin_configurations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugin_configurations.json; sourceTree = "<group>"; };
+		FC26314D2258D9D20028BF26 /* plugin_manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugin_manifest.json; sourceTree = "<group>"; };
+		FC26314E2258D9D50028BF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2631512258D9D50028BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2631532258D9D50028BF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2631582258D9D50028BF26 /* NovaCzPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaCzPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC26315C2258D9D50028BF26 /* NovaCzPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaCzPlayerTests.swift; sourceTree = "<group>"; };
+		FC26315E2258D9D50028BF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2631632258D9D50028BF26 /* NovaCzPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaCzPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2631672258D9D50028BF26 /* NovaCzPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaCzPlayerUITests.swift; sourceTree = "<group>"; };
+		FC2631692258D9D50028BF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC59390F22639BD30037B178 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoPlayerViewController.swift; path = PluginClasses/VideoPlayerViewController.swift; sourceTree = SOURCE_ROOT; };
+		FCDC092F226C8BE200DA7152 /* Playable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2631372258D9D20028BF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C0B25D256CDDBB89F24FEE /* Pods_NovaCzPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2631552258D9D50028BF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2631602258D9D50028BF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C181E15D0EDF8FEBF18F5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAAC94E288BF4E6C7DB0348B /* Pods-NovaCzPlayer.debug.xcconfig */,
+				9B7F65505E0267FED5A3B264 /* Pods-NovaCzPlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1C3099875BB299E7ED2B31A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2C6FB2769CE44856CB5AE /* Pods_NovaCzPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC2631312258D9D20028BF26 = {
+			isa = PBXGroup;
+			children = (
+				FC26313C2258D9D20028BF26 /* NovaCzPlayer */,
+				FC26315B2258D9D50028BF26 /* NovaCzPlayerTests */,
+				FC2631662258D9D50028BF26 /* NovaCzPlayerUITests */,
+				FC26313B2258D9D20028BF26 /* Products */,
+				49C181E15D0EDF8FEBF18F5F /* Pods */,
+				D1C3099875BB299E7ED2B31A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC26313B2258D9D20028BF26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC26313A2258D9D20028BF26 /* NovaCzPlayer.app */,
+				FC2631582258D9D50028BF26 /* NovaCzPlayerTests.xctest */,
+				FC2631632258D9D50028BF26 /* NovaCzPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC26313C2258D9D20028BF26 /* NovaCzPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FC26313D2258D9D20028BF26 /* AppDelegate.swift */,
+				FC26313F2258D9D20028BF26 /* Main.storyboard */,
+				FC2631472258D9D20028BF26 /* InlineViewController.swift */,
+				FC2631492258D9D20028BF26 /* ViewController.swift */,
+				FCDC092F226C8BE200DA7152 /* Playable.swift */,
+				FC26314E2258D9D50028BF26 /* Assets.xcassets */,
+				FC2631502258D9D50028BF26 /* LaunchScreen.storyboard */,
+				FC2631532258D9D50028BF26 /* Info.plist */,
+				FC2631422258D9D20028BF26 /* Zapp-Resources */,
+				FC2631452258D9D20028BF26 /* PluginClasses */,
+			);
+			path = NovaCzPlayer;
+			sourceTree = "<group>";
+		};
+		FC2631422258D9D20028BF26 /* Zapp-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC2631432258D9D20028BF26 /* Podfile */,
+				FC2631442258D9D20028BF26 /* NovaCzPlayer.podspec */,
+				FC26314B2258D9D20028BF26 /* plugin_configurations.json */,
+				FC26314D2258D9D20028BF26 /* plugin_manifest.json */,
+			);
+			name = "Zapp-Resources";
+			sourceTree = "<group>";
+		};
+		FC2631452258D9D20028BF26 /* PluginClasses */ = {
+			isa = PBXGroup;
+			children = (
+				FC2631462258D9D20028BF26 /* NovaCzPlayerPlugin.swift */,
+				FC59390F22639BD30037B178 /* VideoPlayerViewController.swift */,
+			);
+			name = PluginClasses;
+			sourceTree = "<group>";
+		};
+		FC26315B2258D9D50028BF26 /* NovaCzPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC26315C2258D9D50028BF26 /* NovaCzPlayerTests.swift */,
+				FC26315E2258D9D50028BF26 /* Info.plist */,
+			);
+			path = NovaCzPlayerTests;
+			sourceTree = "<group>";
+		};
+		FC2631662258D9D50028BF26 /* NovaCzPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2631672258D9D50028BF26 /* NovaCzPlayerUITests.swift */,
+				FC2631692258D9D50028BF26 /* Info.plist */,
+			);
+			path = NovaCzPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2631392258D9D20028BF26 /* NovaCzPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC26316C2258D9D50028BF26 /* Build configuration list for PBXNativeTarget "NovaCzPlayer" */;
+			buildPhases = (
+				32AB3A57DE217D651013AD6F /* [CP] Check Pods Manifest.lock */,
+				FC2631362258D9D20028BF26 /* Sources */,
+				FC2631372258D9D20028BF26 /* Frameworks */,
+				FC2631382258D9D20028BF26 /* Resources */,
+				ED450709A4D217F232B9DEEC /* [CP] Embed Pods Frameworks */,
+				66AA11B630D76BCF489CF399 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovaCzPlayer;
+			productName = NovaCzPlayer;
+			productReference = FC26313A2258D9D20028BF26 /* NovaCzPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2631572258D9D50028BF26 /* NovaCzPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC26316F2258D9D50028BF26 /* Build configuration list for PBXNativeTarget "NovaCzPlayerTests" */;
+			buildPhases = (
+				FC2631542258D9D50028BF26 /* Sources */,
+				FC2631552258D9D50028BF26 /* Frameworks */,
+				FC2631562258D9D50028BF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC26315A2258D9D50028BF26 /* PBXTargetDependency */,
+			);
+			name = NovaCzPlayerTests;
+			productName = NovaCzPlayerTests;
+			productReference = FC2631582258D9D50028BF26 /* NovaCzPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC2631622258D9D50028BF26 /* NovaCzPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2631722258D9D50028BF26 /* Build configuration list for PBXNativeTarget "NovaCzPlayerUITests" */;
+			buildPhases = (
+				FC26315F2258D9D50028BF26 /* Sources */,
+				FC2631602258D9D50028BF26 /* Frameworks */,
+				FC2631612258D9D50028BF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2631652258D9D50028BF26 /* PBXTargetDependency */,
+			);
+			name = NovaCzPlayerUITests;
+			productName = NovaCzPlayerUITests;
+			productReference = FC2631632258D9D50028BF26 /* NovaCzPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2631322258D9D20028BF26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "CME Services s.r.o.";
+				TargetAttributes = {
+					FC2631392258D9D20028BF26 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FC2631572258D9D50028BF26 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC2631392258D9D20028BF26;
+					};
+					FC2631622258D9D50028BF26 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC2631392258D9D20028BF26;
+					};
+				};
+			};
+			buildConfigurationList = FC2631352258D9D20028BF26 /* Build configuration list for PBXProject "NovaCzPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2631312258D9D20028BF26;
+			productRefGroup = FC26313B2258D9D20028BF26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2631392258D9D20028BF26 /* NovaCzPlayer */,
+				FC2631572258D9D50028BF26 /* NovaCzPlayerTests */,
+				FC2631622258D9D50028BF26 /* NovaCzPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2631382258D9D20028BF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2631412258D9D20028BF26 /* Main.storyboard in Resources */,
+				FC2631522258D9D50028BF26 /* LaunchScreen.storyboard in Resources */,
+				FC26314F2258D9D50028BF26 /* Assets.xcassets in Resources */,
+				FC26314C2258D9D20028BF26 /* plugin_configurations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2631562258D9D50028BF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2631612258D9D50028BF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32AB3A57DE217D651013AD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NovaCzPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66AA11B630D76BCF489CF399 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED450709A4D217F232B9DEEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${PODS_ROOT}/ApplicasterSDK/ApplicasterSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/FBNotifications/FBNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
+				"${BUILT_PRODUCTS_DIR}/NovaCzPlayer/NovaCzPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${PODS_ROOT}/ZappAnalyticsPluginsSDK/ZappAnalyticsPluginsSDK.framework",
+				"${PODS_ROOT}/ZappGeneralPluginsSDK/ZappGeneralPluginsSDK.framework",
+				"${PODS_ROOT}/ZappLoginPluginsSDK/ZappLoginPluginsSDK.framework",
+				"${PODS_ROOT}/ZappPlugins/ZappPlugins.framework",
+				"${PODS_ROOT}/ZappPushPluginsSDK/ZappPushPluginsSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApplicasterSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NovaCzPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappAnalyticsPluginsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappGeneralPluginsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappLoginPluginsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPlugins.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZappPushPluginsSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2631362258D9D20028BF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26314A2258D9D20028BF26 /* ViewController.swift in Sources */,
+				FC59391022639BD30037B178 /* VideoPlayerViewController.swift in Sources */,
+				FCDC0930226C8BE200DA7152 /* Playable.swift in Sources */,
+				FC26313E2258D9D20028BF26 /* AppDelegate.swift in Sources */,
+				FC2631482258D9D20028BF26 /* InlineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2631542258D9D50028BF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26315D2258D9D50028BF26 /* NovaCzPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC26315F2258D9D50028BF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2631682258D9D50028BF26 /* NovaCzPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC26315A2258D9D50028BF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2631392258D9D20028BF26 /* NovaCzPlayer */;
+			targetProxy = FC2631592258D9D50028BF26 /* PBXContainerItemProxy */;
+		};
+		FC2631652258D9D50028BF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2631392258D9D20028BF26 /* NovaCzPlayer */;
+			targetProxy = FC2631642258D9D50028BF26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC26313F2258D9D20028BF26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2631402258D9D20028BF26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2631502258D9D50028BF26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2631512258D9D50028BF26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC26316A2258D9D50028BF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC26316B2258D9D50028BF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC26316D2258D9D50028BF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAAC94E288BF4E6C7DB0348B /* Pods-NovaCzPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C46ZLKGMCG;
+				INFOPLIST_FILE = NovaCzPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC26316E2258D9D50028BF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7F65505E0267FED5A3B264 /* Pods-NovaCzPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C46ZLKGMCG;
+				INFOPLIST_FILE = NovaCzPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC2631702258D9D50028BF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C46ZLKGMCG;
+				INFOPLIST_FILE = NovaCzPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaCzPlayer.app/NovaCzPlayer";
+			};
+			name = Debug;
+		};
+		FC2631712258D9D50028BF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C46ZLKGMCG;
+				INFOPLIST_FILE = NovaCzPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaCzPlayer.app/NovaCzPlayer";
+			};
+			name = Release;
+		};
+		FC2631732258D9D50028BF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C46ZLKGMCG;
+				INFOPLIST_FILE = NovaCzPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaCzPlayer;
+			};
+			name = Debug;
+		};
+		FC2631742258D9D50028BF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C46ZLKGMCG;
+				INFOPLIST_FILE = NovaCzPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaCzPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2631352258D9D20028BF26 /* Build configuration list for PBXProject "NovaCzPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC26316A2258D9D50028BF26 /* Debug */,
+				FC26316B2258D9D50028BF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC26316C2258D9D50028BF26 /* Build configuration list for PBXNativeTarget "NovaCzPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC26316D2258D9D50028BF26 /* Debug */,
+				FC26316E2258D9D50028BF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC26316F2258D9D50028BF26 /* Build configuration list for PBXNativeTarget "NovaCzPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2631702258D9D50028BF26 /* Debug */,
+				FC2631712258D9D50028BF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2631722258D9D50028BF26 /* Build configuration list for PBXNativeTarget "NovaCzPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2631732258D9D50028BF26 /* Debug */,
+				FC2631742258D9D50028BF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2631322258D9D20028BF26 /* Project object */;
+}

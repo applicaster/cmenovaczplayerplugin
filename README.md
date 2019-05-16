@@ -1,1 +1,1 @@
-# cmenovaczplayerplugin
+# cme-novacz
