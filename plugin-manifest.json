@@ -1,0 +1,35 @@
+{
+  "api": {
+    "require_startup_execution": false,
+    "class_name": "NovaCzPlayerPlugin",
+    "modules": [
+      "NovaCzPlayer"
+    ]
+  },
+  "dependency_repository_url": [
+    "https://github.com/smetanakarel/cmenovaczplugin.git"
+  ],
+  "platform": "ios",
+  "author_name": "Karel Smetana",
+  "author_email": "smetana.karel@gmail.com",
+  "manifest_version": "0.1.0",
+  "name": "Nova CZ Player",
+  "description": "Nova CZ Player",
+  "type": "player",
+  "screen": true,
+  "identifier": "NovaCzPlayer",
+  "ui_builder_support": true,
+  "dependency_name": "NovaCzPlayer",
+  "dependency_version": "0.1.0",
+  "whitelisted_account_ids": [
+    "5c6137e3bfb876000d88c1d3",
+    "5c3b30b215742800080fca29"
+  ],
+  "min_zapp_sdk": "10.0.0",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "react_native": false,
+  "custom_configuration_fields": [
+
+  ]
+}
