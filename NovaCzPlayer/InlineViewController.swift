@@ -46,7 +46,7 @@ class InlineViewController: UIViewController, WKNavigationDelegate {
 	
 	private func createNovaVideo() -> ZPPlayable {
 		let item = Playable()
-		item.videoURL = ""
+		item.videoURL = "HereWillBeUrlFromApp"
 		
 		item.fullscreenView = false
 		
