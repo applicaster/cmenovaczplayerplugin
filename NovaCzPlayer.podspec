@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
     s.license          = 'MIT'
     s.author           = { "Karel Smetana" => "smetana.karel@gmail.com" }
     s.source           = { :git => "https://github.com/smetanakarel/cmenovaczplugin.git", :tag => s.version.to_s }
-  
-    s.ios.deployment_target  = "9.0"
-    s.platform     = :ios, '9.0'
+
+    s.ios.deployment_target  = "10.0"
+    s.platform     = :ios, '10.0'
     s.requires_arc = true
-    s.swift_version = '4.1'
-  
+    s.swift_version = '4.2'
+
     s.subspec 'Core' do |c|
       s.resources = []
       c.frameworks = 'UIKit'
@@ -23,16 +23,15 @@ Pod::Spec.new do |s|
       c.dependency 'ZappPlugins'
       c.dependency 'ApplicasterSDK'
     end
-                  
+
     s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                     'ENABLE_BITCODE' => 'YES',
                     'OTHER_LDFLAGS' => '$(inherited)',
                     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}"/**',
                     'LIBRARY_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}"/**',
-                    'SWIFT_VERSION' => '4.1'
+                    'SWIFT_VERSION' => '4.2'
                   }
-                  
+
     s.default_subspec = 'Core'
-                  
+
   end
-  

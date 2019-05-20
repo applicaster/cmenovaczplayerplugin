@@ -134,7 +134,7 @@ public class NovaCzPlayerPlugin: APPlugablePlayerBase {
         super.pluggablePlayerRemoveInline()
         //remove temp view
         container?.removeFromSuperview()
-		playerViewController?.removeFromParentViewController()
+        playerViewController?.removeFromParent()
     }
     
     // MARK: - Private

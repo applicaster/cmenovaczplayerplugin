@@ -39,13 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077BB943DAD11B0239913E64 /* Pods-NovaCzPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaCzPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		74DA9E606D07BA7E8E28B9B1 /* Pods-NovaCzPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaCzPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		9B7F65505E0267FED5A3B264 /* Pods-NovaCzPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaCzPlayer.release.xcconfig"; path = "Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		DDD2C6FB2769CE44856CB5AE /* Pods_NovaCzPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovaCzPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAC94E288BF4E6C7DB0348B /* Pods-NovaCzPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovaCzPlayer.debug.xcconfig"; path = "Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		FC26313A2258D9D20028BF26 /* NovaCzPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaCzPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC26313D2258D9D20028BF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC2631402258D9D20028BF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC2631432258D9D20028BF26 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FC2631432258D9D20028BF26 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC2631442258D9D20028BF26 /* NovaCzPlayer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NovaCzPlayer.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC2631462258D9D20028BF26 /* NovaCzPlayerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NovaCzPlayerPlugin.swift; path = ../PluginClasses/NovaCzPlayerPlugin.swift; sourceTree = "<group>"; };
 		FC2631472258D9D20028BF26 /* InlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,8 @@
 			children = (
 				EAAC94E288BF4E6C7DB0348B /* Pods-NovaCzPlayer.debug.xcconfig */,
 				9B7F65505E0267FED5A3B264 /* Pods-NovaCzPlayer.release.xcconfig */,
+				077BB943DAD11B0239913E64 /* Pods-NovaCzPlayer.debug.xcconfig */,
+				74DA9E606D07BA7E8E28B9B1 /* Pods-NovaCzPlayer.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -321,15 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-NovaCzPlayer-checkManifestLockResult.txt",
 			);
@@ -343,23 +343,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-resources.sh",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED450709A4D217F232B9DEEC /* [CP] Embed Pods Frameworks */ = {
@@ -367,11 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${PODS_ROOT}/ApplicasterSDK/ApplicasterSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
@@ -379,24 +373,21 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
-				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework",
 				"${BUILT_PRODUCTS_DIR}/NovaCzPlayer/NovaCzPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
-				"${PODS_ROOT}/ZappAnalyticsPluginsSDK/ZappAnalyticsPluginsSDK.framework",
+				"${PODS_ROOT}/ZappAnalyticsPluginsSDK/Frameworks/iOS/ZappAnalyticsPluginsSDK.framework",
 				"${PODS_ROOT}/ZappGeneralPluginsSDK/ZappGeneralPluginsSDK.framework",
 				"${PODS_ROOT}/ZappLoginPluginsSDK/ZappLoginPluginsSDK.framework",
-				"${PODS_ROOT}/ZappPlugins/ZappPlugins.framework",
+				"${PODS_ROOT}/ZappPlugins/Frameworks/iOS/ZappPlugins.framework",
 				"${PODS_ROOT}/ZappPushPluginsSDK/ZappPushPluginsSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApplicasterSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
@@ -404,7 +395,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NovaCzPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
@@ -419,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NovaCzPlayer/Pods-NovaCzPlayer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -546,6 +536,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -600,13 +591,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		FC26316D2258D9D50028BF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAAC94E288BF4E6C7DB0348B /* Pods-NovaCzPlayer.debug.xcconfig */;
+			baseConfigurationReference = 077BB943DAD11B0239913E64 /* Pods-NovaCzPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -619,14 +611,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		FC26316E2258D9D50028BF26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B7F65505E0267FED5A3B264 /* Pods-NovaCzPlayer.release.xcconfig */;
+			baseConfigurationReference = 74DA9E606D07BA7E8E28B9B1 /* Pods-NovaCzPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -639,7 +630,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cz.nova.NovaCzPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
